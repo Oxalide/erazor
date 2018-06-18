@@ -5,8 +5,8 @@ Eraze all disks plug in server and LSI megaraid controller
 - Boot in PXE (*ALL* disks will be erazed !)
 - Get this script with wget :
 ```bash
-wget https://github.com/Oxalide/erazor/master
-wget ...
+wget https://raw.githubusercontent.com/Oxalide/erazor/master/disks.sh
+wget https://raw.githubusercontent.com/Oxalide/erazor/master/erazor.sh
 chmod +x erazor.sh
 ./erazor.sh
 ```
